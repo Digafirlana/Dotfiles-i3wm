@@ -19,7 +19,10 @@ A personal collection of configuration files (dotfiles) for the i3 window manage
 
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Digafirlana/Dotfiles-i3wm.git](https://github.com/Digafirlana/Dotfiles-i3wm.git)
-   cd Dotfiles-i3wm
-   cp -r i3 ~/.config/
+ ```bash
+     git clone https://github.com/Digafirlana/Dotfiles-i3wm.git
+
+      cd Dotfiles-i3wm
+
+
+
