@@ -195,7 +195,7 @@ set $white       #ffffff
 set $black       #000000
 
 # Jarak antar jendela (Gaps)
-# Pastikan Anda menggunakan i3-gaps (sekarang sudah menyatu di i3 versi terbaru)
+# Pastikan Anda menggunakan i3-gaps 
 gaps inner 3
 gaps outer 3
 
