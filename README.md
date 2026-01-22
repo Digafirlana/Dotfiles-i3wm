@@ -21,9 +21,7 @@ A personal collection of configuration files (dotfiles) for the i3 window manage
 1. **Clone the repository:**
  ```bash
  git clone https://github.com/Digafirlana/Dotfiles-i3wm.git
- cd Dotfiles-i3wm
- # Example: Copying i3 config
- cp -r i3 ~/.config/
+
 
 
 
