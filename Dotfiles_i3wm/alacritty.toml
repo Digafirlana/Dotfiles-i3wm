@@ -1,5 +1,6 @@
 [env]
 TERM = "alacritty"
+
 [window]
 padding = { x = 5, y = 5 }
 
@@ -7,44 +8,36 @@ padding = { x = 5, y = 5 }
 normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
 size = 11.0
 
-
 [cursor.style]
 shape = "Underline"
 blinking = "On"
 
 [colors.primary]
-background = '#0a0b10' # Hitam kebiruan sangat gelap
-foreground = '#e0f7ff'
+background = '#0a0b10' # Hitam kebiruan sangat gelap sesuai gambar
+foreground = '#e0f7ff' # Putih kebiruan terang
 
 [colors.cursor]
-text = "#1C1C1C"
-cursor = "#5c9eff"
+text   = '#0a0b10'
+cursor = '#00d4ff' # Neon Cyan agar kontras dengan background
 
 [colors.selection]
-text = "#FFFFFF"
-background = "#5c9eff"
-
-shape = "Underline"
-blinking = "On"
-
-[colors.primary]
-background = '#0a0b10' # Hitam kebiruan sangat gelap
-foreground = '#e0f7ff'
-
-[colors.cursor]
-text = "#1C1C1C"
-cursor = "#5c9eff"
-
-[colors.selection]
-text = "#FFFFFF"
-background = "#5c9eff"
-
+text       = '#ffffff'
+background = '#1e3a5f'
 [colors.normal]
-black   = "#000000"
-red     = "#5c9eff"
-green   = "#AAAAAA"
-yellow  = "#EEEEEE"
-blue    = "#5c9eff"
-magenta = "#F92672"
-cyan    = "#DDDDDD"
-white   = "#FFFFFF"
+black   = '#1b1e28'
+red     = '#ff5f5f' # Merah yang pas, tidak alay
+green   = '#00e676'
+yellow  = '#ffca28'
+blue    = '#3d5afe' # Royal Blue Modern (Ini biru yang kamu cari)
+magenta = '#c678dd'
+cyan    = '#00d4ff'
+white   = '#abb2bf'
+[colors.bright]
+black   = '#242936'
+red     = '#ff8a80'
+green   = '#69f0ae'
+yellow  = '#ffe082'
+blue    = '#536dfe' # Biru neon yang lebih menyala
+magenta = '#d55fde'
+cyan    = '#64ffda'
+white   = '#ffffff'
