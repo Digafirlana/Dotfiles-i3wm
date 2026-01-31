@@ -196,21 +196,16 @@ set $black       #000000
 
 # Jarak antar jendela (Gaps)
 # Pastikan Anda menggunakan i3-gaps 
-gaps inner 3
-gaps outer 3
+gaps inner 8
+gaps outer 0
 
-# Tata Warna Jendela: class                 border          backgr.         text    indicator child_border
-client.focused          $blue_modern    $blue_modern    $white  $blue_modern $blue_modern
-client.focused_inactive $blue_dark      $blue_dark      $white  $blue_dark   $blue_dark
-client.unfocused        $blue_dark      $blue_dark      $white  $blue_dark   $blue_dark
-client.urgent           #ff0000         #ff0000         $white  #ff0000      #ff0000
 # Menghilangkan bar judul untuk jendela baru
-default_border pixel 2
+default_border pixel 4
 
 # Menghilangkan bar judul untuk jendela floating
-default_floating_border pixel 2
+default_floating_border pixel 4
 # Gunakan ini untuk memastikan semua jendela baru maupun lama tidak punya judul
-for_window [class=".*"] border pixel 2
+for_window [class=".*"] border pixel 0
 #polybar
 exec_always --no-startup-id ~/.config/polybar/blocks/launch.sh
 #wallpaper
