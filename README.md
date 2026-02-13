@@ -12,7 +12,7 @@ A personal collection of configuration files (dotfiles) for the i3 window manage
 * **Launcher:** Rofi
 
 ## 📸 Screenshots
-![My Desktop Setup](dotfile.jpg)
+![My Desktop Setup](dotfile.png)
 ## 🚀 Installation
 
 
